@@ -1,5 +1,6 @@
 import React from 'react';
+import Article from '../presentationalComp/Article';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return <Article title="Test" author="testAuth" description="testDesc" />;
 }
