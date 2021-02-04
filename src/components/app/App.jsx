@@ -1,6 +1,14 @@
 import React from 'react';
-import Article from '../presentationalComp/Article';
+import NewsSearch from '../NewsSearch';
 
-export default function App() {
-  return <Article title="Test" author="testAuth" description="testDesc" />;
+export default class App extends React.Component {
+  render() {
+    return (
+      <>
+        <div className="news-search">
+          <NewsSearch />
+        </div>
+      </>
+    );
+  }
 }

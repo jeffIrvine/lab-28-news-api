@@ -10,7 +10,7 @@ const Article = ({ title, author, description }) => (
 Article.propTypes = {
   title: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired
 };
 
 export default Article;
